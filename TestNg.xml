@@ -1,0 +1,108 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Suite1">
+
+    <test name = "Login_AP">
+    <classes>
+    <class name="Testcases.Login_tc">
+    <methods>
+
+    <include name="loginFunc"></include>
+
+    </methods>
+    </class>
+    </classes>
+    </test>
+
+
+    <test name = "CreateBooking_AP">
+        <classes>
+            <class name="Testcases.Createbooking_tc">
+                <methods>
+                    <include name="createBooking"></include>
+                    <include name="categorySelection"></include>
+                    <include name="creditCard"></include>
+                    <include name="storageUnitSelection"></include>
+                    <include name="bookingTypeSelection"></include>
+                    <include name="providingInfo"></include>
+                    <include name="addressSelection"></include>
+                    <include name="dateSelection"></include>
+                    <include name="timeSelection"></include>
+                    <include name="submitCreateBookingForm"></include>
+
+                </methods>
+
+            </class>
+        </classes>
+    </test>
+
+
+
+
+
+
+    <test name = "Discountcode_AP">
+        <classes>
+            <class name="Testcases.DiscountCode_tc">
+                <methods>
+                    <include name="addDiscount"></include>
+                    <include name="viewDetails"></include>
+                    <include name="editDiscount"></include>
+                    <include name="deleteDiscount"></include>
+
+
+                </methods>
+
+            </class>
+        </classes>
+    </test>
+
+    <test name = "Warehouse_AP">
+        <classes>
+            <class name="Testcases.Warehouse_tc">
+                <methods>
+                    <include name="addWarehouse"></include>
+                    <include name="editWarehouse"></include>
+                    <include name="deleteWarehouse"></include>
+
+                </methods>
+
+            </class>
+        </classes>
+
+
+    </test>
+
+
+    <test name = "Room_AP">
+        <classes>
+            <class name="Testcases.Room_tc">
+                <methods>
+                    <include name="addRoom"></include>
+                    <include name="editRoom"></include>
+                    <include name="deleteRoom"></include>
+
+                </methods>
+
+            </class>
+        </classes>
+
+
+    </test>
+
+    <test name = "UserDiscountEmail_AP">
+        <classes>
+            <class name="Testcases.UserDiscountEmail_tc">
+                <methods>
+                    <include name="userDiscount"></include>
+
+                </methods>
+
+            </class>
+        </classes>
+
+
+    </test>
+
+
+</suite>
